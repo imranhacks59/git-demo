@@ -1,0 +1,12 @@
+.back-forward3{
+    position: absolute;
+    margin-bottom: 0;
+    margin-left: 50%;
+    margin-top: 40%;
+    /* width: 50%; */
+}
+
+.not-show{
+    filter: blur(6px);
+    height: 40px;
+}

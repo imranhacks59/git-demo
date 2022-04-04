@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.upper-container{
+    width: 50%;
+    height: 30%;
+    margin: 50px auto;
+    position: relative;
+
+}
+.upper-container1{
+     width: 35%;   
+     height: 100%;
+     padding-top: 20px;
+} 
+
+.task{
+    font-weight: 700;
+    font-size: 2.5rem;
+    
+}
+
+.list{
+   font-size: 2.5rem;
+    margin-left: 10px;
+    opacity: 0.5;
+}
+
+.upper-container2{
+    width: 35%;
+    height: 100%;
+    padding-top: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+   
+}
+
+.circle{
+    
+}
+
+.add-list{
+   position: absolute;
+   width: 80%;
+   height: 100%;
+   top: 0;
+   right: 0;
+   font-size: 35px;
+   opacity: 0.5;
+   padding-top: 25px;
+}
+
+/* Style for card */
+
+.main-card{
+    display: flex;
+    justify-content: space-around;
+    
+}
+/* style for card 1 */
+.card1{
+    /* display: flex; */
+   border: 2px solid rgb(136, 44, 60);
+   width: 15%;
+   height: 40vh;
+   margin-top: 20px;
+   box-shadow: 2px 2px 4px red;
+   align-items: center;
+   
+   position: relative;
+   margin: auto;
+   border-radius: 8px;
+
+}
+
+.div1{
+    position: absolute;
+    right: 0;
+    color: red;
+    border-bottom: 2px solid gray;
+    margin-top: 15px;
+    top: 15px;
+    text-align: left;
+    width: 85%;
+    height: 15%;
+}
+
+.div2{
+    position: absolute;
+    margin-top: 40%;
+    right: 0px;
+    color: red;
+    text-decoration: line-through;
+    text-align: center;
+}
+
+.div3{
+    position: absolute;
+    margin-top: 70%;
+     
+}
+
+#check{
+    width: 20px;
+    height: 20px;
+    margin-left: 7px;
+}
+
+.back-forward{
+    position: absolute;
+    margin-bottom: 0;
+    margin-left: 50%;
+    margin-top: 10%;
+     width: 50%;
+}
+/* .back-forward{
+    position: absolute;
+    margin-bottom: 0;
+    margin-left: 50%;
+    margin-top: 40%;
+     width: 50%; 
+} */
+
+.trip{
+    font-size: 2.5rem;
+    position: relative;
+    /* margin: auto; */
+    left: 40%;
+}
+
+.container2{
+    position: relative;
+    left:50%;
+    margin-top: 5%;
+}
+
+.back-arrow{
+    /* position: absolute; */
+    /* left: 40%; */
+
+}
+.page-3{
+    border: 2px solid red;
+    width: 30%;
+    height: 50%;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 19px;
+    box-shadow: 3px 3px 10px gray;
+    background-color: white;
+}
+
+.add-new{
+    position: absolute;
+    font-size: 25px;
+    opacity: 0.7;
+}
+.pop-upbar{
+    margin-top: 20%;
+    border: 2px solid red;
+}
+.pop-up-button{
+    background-color: red;
+    border: 2px;
+    border-radius: 5px;
+    position: absolute;
+    left: 40%;
+    bottom: 10%;
+}
+
+.trip-heading{
+    position: absolute;
+    margin: auto;
+    top: 2%;
+}
